@@ -4,10 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat cat = new Cat();
-        Dog dog = new Dog();
+        Cat soya = new Cat("Soya");
+        Dog topsy = new Dog("Topsy");
 
-        cat.makeSound();
-        dog.makeSound();
+        System.out.println(soya.name);
+        soya.makeSound();
+
+        System.out.println(topsy.name);
+        topsy.makeSound();
     }
 }
