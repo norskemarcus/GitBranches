@@ -7,4 +7,9 @@ public class Dog extends Animal{
     System.out.println("Vof");
   }
 
+  public boolean eat(String foodType){
+    return true;
+  }
+
+
 }
