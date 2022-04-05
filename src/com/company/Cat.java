@@ -14,4 +14,10 @@ public class Cat extends Animal {
     return true;
   }
 
+  @Override
+  public void showMood(boolean mood) {
+
+  }
+
+
 }
