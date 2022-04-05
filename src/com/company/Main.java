@@ -9,8 +9,10 @@ public class Main {
 
         System.out.println(soya.name);
         soya.makeSound();
+        soya.eat("fish");
 
         System.out.println(topsy.name);
         topsy.makeSound();
+        topsy.eat("dogfood");
     }
 }
